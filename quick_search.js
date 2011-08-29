@@ -85,7 +85,7 @@ var qs_base_url = ''; //flexIDX URL
 /** If you're using FlexMLS IDX plugin for WordPress and would like to open search results in an iFrame
  *  specify the URL of the IDX search page via this variable.
  */
-//var qs_page = '';
+var qs_page = '';
 
 
 /***** DO NOT EDIT BELOW THIS LINE! NO, SERIOUSLY - DON'T. *****/
@@ -388,7 +388,7 @@ function qs_initJQuery() {
         setTimeout("qs_initJQuery()", 50);
     } else {
 
-        $(function() {
+        jQuery(function() {
             // do anything that needs to be done on document.ready
             // don't really need this dom ready thing if used in footer
             qs_jq_ready();
