@@ -11,7 +11,7 @@ Version: 1.0
  */
 
 /***** INSTALLATION INSTRUCTIONS *****
- 1. Load the JS file in the header or foother of your HTML page like this:
+ 1. Load the JS file in the header or footer of your HTML page like this:
    <script src="http:// YOUR URL /quick_search.js"></script>
  2. Insert empty DIV tag with ID flexidx-quicksearch within the body of your page where the widget should appear, like this:
    <div id="flexidx-quicksearch"></div>
